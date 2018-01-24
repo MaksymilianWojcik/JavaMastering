@@ -1,0 +1,12 @@
+>>>> Podsumowanie procesu tworzenia obiektów. Dotyczy przykladow InicjalizacjiwKonstruktorze i InicjalizacjiZmiennychStatycznych:
+Rozwazmy to na przykladzie klasy Dog:
+1.  Gdy pierwszy raz tworzony jest obiekt Dog albo gdy pierwszy raz nastêpuje siegniecie do metody lub zmiennej statycznej zamieszcoznej w tej klasie, 
+to interpreter Javy musi zlokalizowac Dog.class przez przeszukiwanie sciezki klas
+2. Oi wczytaniu klasy (stworzenie obiektu typu Class) przeprowadzane s¹ wszystkei inicjalizacje statyczne. A wiec inicjalizacja statyczna wystepuje tylko raz,
+gdy pierwszy raz ladowany jest obiekt klasy Class
+3. Kiedy tworzymy obiekt przez "new Dog()", proces konstrukcji obiektu Dog przysepuje do alokacji odpowiedniej ilosci pamieci dla obiektu na stercie.
+4. Przydzielony obszar jest wymazywany z automatycznym ustawieniem wsyzstkich typow podstawowych obiektu Dog na ich wartosci domyslne
+5. Nastepuje inicjalizacjia wszystkich pol okrelsona jawnie w miejscu ich definicji
+6. Wykonywane sa ciala kosntruktorów. 
+
+
