@@ -10,3 +10,11 @@ gdy pierwszy raz ladowany jest obiekt klasy Class
 6. Wykonywane sa ciala kosntruktorów. 
 
 
+>> JAWNAINICJALIZACJASTATYCZNA
+
+Java pozwala na zebranie inicjalizacji statycznych wewnatrz specjalnej klauzuli konstrukcyjnej static (blok statyczny)
+umieszczonej w klasie. Wyglada to jak metoda, ale posiada tylko slowo kluczowe static, po ktorym wystêpuje cia³o metody.
+Tak samo jak inne inicjalizacje statyczne, kod ten wywo³ywany jest tylko raz - kiedy tworzymy obiekt danej klasy lub kiedy
+po raz pierwszy siêgamy do jednej z jej sk³adowych statycznych (nawet w przypadku kiedy nigdy nei stworzymy obiektu tej 
+klasy). Wiêcej w przyk³adzie.
+
