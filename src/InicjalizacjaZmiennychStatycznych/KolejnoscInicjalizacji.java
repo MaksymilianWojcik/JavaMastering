@@ -9,9 +9,11 @@ public class KolejnoscInicjalizacji {
 		new Cupboard();
 		table.f2(1);
 		cupboard.f3(1);
+		System.out.println("Koniec maina");
 	}
 	static Table table = new Table();
 	static Cupboard cupboard = new Cupboard();
+	
 }
 
 
